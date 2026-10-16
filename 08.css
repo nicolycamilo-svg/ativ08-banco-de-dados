@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fafafa;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Configuração de Colunas */
+.materia {
+    column-count: 3;     /* 3 colunas */
+    column-gap: 30px;    /* Espaço entre elas */
+    column-width: 250px; /* Mantém a leitura boa em telas menores */
+}
+
+.materia p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
